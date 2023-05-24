@@ -7,6 +7,10 @@ import { TestComponent } from './test/test.component';
 import { CoinListComponent } from './coin-list/coin-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavigationComponent } from './navigation/navigation.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { CoinDialogComponent } from './coin-dialog/coin-dialog.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 @NgModule({
@@ -14,12 +18,16 @@ import { NavigationComponent } from './navigation/navigation.component';
     AppComponent,
     TestComponent,
     CoinListComponent,
-    NavigationComponent
+    NavigationComponent,
+    CoinDialogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatGridListModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

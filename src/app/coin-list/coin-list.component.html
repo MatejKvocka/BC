@@ -1,20 +1,11 @@
-<table>
-    <thead>
-      <tr>
-        <th>Country</th>
-        <th>Motív</th>
-        <th>Popis</th>
-        <th>Náklad</th>
-        <th>Dátum vydania</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let coin of coins">
-        <td>{{ coin.country }}</td>
-        <td>{{ coin.motiv }}</td>
-        <td>{{ coin.popis }}</td>
-        <td>{{ coin.naklad }}</td>
-        <td>{{ coin.datum_vydania }}</td>
-      </tr>
-    </tbody>
-  </table>
+<mat-grid-list cols="4" rowHeight="350px">
+  <mat-grid-tile *ngFor="let coin of coins">
+    <div class="coin-container" (click)="openCoinDialog(coin)">
+      <img [src]="coin.img_url" alt="Coin Image" class="coin-image">
+      <div class="coin-details">
+        <p class="country">{{ coin.country }}</p>
+        <p class="year">{{ coin.year }}</p>
+      </div>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
