@@ -1,0 +1,20 @@
+<table>
+    <thead>
+      <tr>
+        <th>Country</th>
+        <th>Motív</th>
+        <th>Popis</th>
+        <th>Náklad</th>
+        <th>Dátum vydania</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let coin of coins">
+        <td>{{ coin.country }}</td>
+        <td>{{ coin.motiv }}</td>
+        <td>{{ coin.popis }}</td>
+        <td>{{ coin.naklad }}</td>
+        <td>{{ coin.datum_vydania }}</td>
+      </tr>
+    </tbody>
+  </table>

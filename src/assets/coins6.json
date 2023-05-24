@@ -1,0 +1,65 @@
+[
+    {
+        "country": "Vatikán",
+        "motiv": "500. výročie Švajčiarskej pápežskej gardy",
+        "popis": "Na minci je znázornený člen Švajčiarskej gardy skladajúci prísahu vernosti pápežovi. Gardistu v polkruhu obkolesuje nápis „GUARDIA SVIZZERA PONTIFICA“ a pod zástavou sa nachádza názov štátu, v ktorom bola minca vydaná – „CITTÀ DEL VATICANO“. Na ľavej strane je pozdĺž žrde zástavy uvedený podpis autorky návrhu „O. ROSSI“ a nad ním je rok „1506“. Na pravej strane je rok „2006“ a pod ním značka mincovne „R“. Vo vonkajšom prstenci mince je dvanásť hviezd Európskej únie.",
+        "naklad": "100 000 mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2006_va.jpg"
+    },
+    {
+        "country": "San Maríno",
+        "motiv": "500. výročie smrti Krištofa Kolumba",
+        "popis": "Minca zobrazuje portrét Krištofa Kolumba a tri karavely. Nad portrétom je nápis „SAN MARINO“, napravo od portrétu sa nachádza veterná ružica a značka mincovne „R“. Na zvitku pod portrétom sú uvedené roky „1506 – 2006.“ Vo vonkajšom prstenci mince sa nachádza dvanásť hviezd Európskej únie.",
+        "naklad": "120 000 mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2006_sm.jpg"
+    },
+    {
+        "country": "Fínsko",
+        "motiv": "100. výročie všeobecného a rovného volebného práva",
+        "popis": "Vnútorná časť mince zobrazuje mužskú a ženskú tvár oddelené čiarou. Naľavo od nich je dátum „1.10.1906“ a napravo je rok vydania „20 FI 06“ so skratkou krajiny v strede. Vedľa každej tváre je značka mincovne „M“. Vo vonkajšom prstenci mince sa nachádza dvanásť hviezd Európskej únie.",
+        "naklad": "2,5 milióna mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2006_fi.jpg"
+    },
+    {
+        "country": "Belgicko",
+        "motiv": "Atómium",
+        "popis": "V strede mince je znázornený obraz Atómia a napravo od neho sú iniciály rytca „LL“. Pri základni Atómia sú dve značky mincovne. Vo vonkajšom prstenci mince sa nachádza dvanásť hviezd Európskej únie, písmeno „B“ a rok vydania „2006“.",
+        "naklad": "5 miliónov mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2006_be.jpg"
+    },
+    {
+        "country": "Nemecko",
+        "motiv": "Šlezvicko-Holštajnsko",
+        "popis": "Stred mince znázorňuje symbol mesta Lübeck, bránu Holstentor. Pod ňou je nápis „Schleswig-Holstein“ – názov prvého zo 16 nemeckých spolkových štátov, ktorým je venovaná pamätná eurová minca. Napravo od brány sú iniciály rytca „HH“, naľavo je značka mincovne „A“, „D“, „F“, „G“ alebo „J“ (podľa toho, v ktorej mincovni bola príslušná minca vyrazená). Vo vonkajšom prstenci mince sa nachádza rok vydania „2006“, dvanásť hviezd Európskej únie a slová „Bundesrepublik Deutschland“.",
+        "naklad": "30 miliónov mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2006_de.jpg"
+    },
+    {
+        "country": "Taliansko",
+        "motiv": "XX. zimné olympijské hry – Turín 2006",
+        "popis": "V strede mince je oblými líniami znázornená dynamická postava lyžiara. Nad ňou je nápis „GIOCHI INVERNALI“ a naľavo slovo „TORINO“ spolu s obrazom symbolu mesta – budovy Mole Antonelliana – ktoré označujú miesto konania olympijských hier. Naľavo od postavy lyžiara sa tiež nachádza monogram Talianskej republiky „RI“ a značka mincovne „R“. Rok vydania „2006“ a iniciály autorky návrhu „MCC“ (Maria Carmela Colaneri) sú v pravej časti mince. Vo vonkajšom prstenci mince sa nachádza dvanásť hviezd Európskej únie.",
+        "naklad": "40 miliónov mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2006_it.jpg"
+    },
+    {
+        "country": "Luxembursko",
+        "motiv": "25. narodeniny veľkovojvodu Guillauma, nástupcu trónu",
+        "popis": "V strede mince je zobrazený profil veľkovojvodu Henriho, ktorý čiastočne prekrýva profil veľkovojvodu Guillauma. Pod profilmi sa nachádza rok vydania „2006“, naľavo od neho je písmeno „S“ a napravo značka mincovne. Nad profilmi je nápis „LËTZEBUERG“. Vo vonkajšom prstenci mince je dvanásť hviezd Európskej únie.",
+        "naklad": "1,1 milióna mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2006_lu.jpg"
+    }
+]

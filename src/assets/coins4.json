@@ -1,0 +1,56 @@
+[
+    {
+        "country": "Vatikán",
+        "motiv": "75. výročie založenia Vatikánskeho mestského štátu",
+        "popis": "Vo vnútornej časti mince sa nachádza schematické znázornenie obvodových múrov mesta Vatikán s bazilikou sv. Petra v popredí. Vnútorná časť mince ďalej obsahuje nápisy „75o ANNO DELLO STATO“ a „1929-2004“ a malými písmenami meno autora návrhu „VEROI“ a iniciály rytca „L.D.S. INC.“. Vo vonkajšom prstenci mince sa nachádza dvanásť hviezd Európskej únie a nápis „CITTA' DEL VATICANO“.",
+        "naklad": "100 000 mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2004_va.jpg"
+    },
+    {
+        "country": "Taliansko",
+        "motiv": "50 rokov Svetového potravinového programu",
+        "popis": "V strede mince sa nachádza doprava naklonená zemeguľa s nápisom „WORLD FOOD PROGRAMME“ (Svetový potravinový program). Spoza zemegule vystupuje klas pšenice, klas kukurice a klas ryže, troch plodín predstavujúcich základné zdroje potravy vo svete. Napravo od zemegule je písmeno „I“ prekrývajúce písmeno „R“, čo znamená „Repubblica Italiana“, a pod ním je menšia kombinácia iniciál rytca „U“ a „P“ (Uliana Pernazza). V hornej časti naľavo od zemegule je značka mincovne „R“ a pod zemeguľou rok vydania „2004“. Vo vonkajšom prstenci mince sa nachádza dvanásť hviezd Európskej únie.",
+        "naklad": "16 milión mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2004_it.jpg"
+    },
+    {
+        "country": "San Maríno",
+        "motiv": "Bartolomeo Borghesi (historik a numizmatik)",
+        "popis": "Dvanásť hviezd Európskej únie umiestnených po okraji a rok vydania „2004“ v strede v spodnej časti obklopujú bustu Bartolomea Borghesiho. Naľavo od busty sa nachádza nápis „Bartolomeo Borghesi“, písmeno „R“ a pod ním iniciály rytca „E.L.F.“. Napravo od busty je nápis „San Marino“.",
+        "naklad": "110 000 mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2004_sm.jpg"
+    },
+    {
+        "country": "Fínsko",
+        "motiv": "Rozšírenie Európskej únie o desať nových členských štátov",
+        "popis": "Minca zobrazuje štylizovaný pilier, z ktorého smerom nahor vyrastajú výhonky. Výhonky symbolizujú rozšírenie Európskej únie, pilier symbolizuje základ rastu. Vedľa piliera sú písmená „EU“. V hornej časti mince sa nachádza rok „2004“. Vo vonkajšom prstenci mince sa nachádza dvanásť hviezd a rok.",
+        "naklad": "1 milión mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2004_fi.jpg"
+    },
+    {
+        "country": "Luxembursko",
+        "motiv": "Podobizeň a monogram veľkovojvodu Henriho",
+        "popis": "Na ľavej strane vnútornej časti mince je zobrazený profil Jeho kráľovskej výsosti veľkovojvodu Henriho sprava; na pravej strane je jeho monogram (zvláštne písmeno „H“ s korunou navrchu). Napravo od monogramu je 12 hviezd umiestnených do poloblúka. V hornej časti vonkajšieho prstenca je slovo LËTZEBUERG a rok 2004 medzi značkou mincovne a iniciálami rytca. V dolnej časti prstenca sú zobrazené slová „HENRI - Grand-Duc de Luxembourg“.",
+        "naklad": "2,49 milióna mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2004_lu.jpg"
+    },
+    {
+        "country": "Grécko",
+        "motiv": "Olympijské hry v Aténach v roku 2004",
+        "popis": "Dvanásť hviezd Európskej únie umiestnených po okraji obklopuje obraz sochy antického diskára pripraveného na hod. Podstavec sochy čiastočne presahuje do vonkajšieho prstenca mince (vonkajšej časti). Naľavo od sochy je logo olympijských hier „ATHENS 2004“ a päť olympijských kruhov, napravo je číslo „2“ a pod ním slovo „ΕΥΡΩ“. Rok vydania je rozdelený na dve časti hviezdou umiestnenou v strede v spodnej časti mince (20*04). Značka mincovne sa nachádza vľavo nad hlavou atléta.",
+        "naklad": "50 miliónov mincí",
+        "year": "",
+        "quarter": "",
+        "img_url": "/euro/coins/comm/shared/img/comm_2004_el.jpg"
+    }
+]
