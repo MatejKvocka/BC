@@ -13,4 +13,14 @@ export class CoinService {
   getCoins(): Observable<any[]> {
     return this.http.get<any[]>(this.apiUrl);
   }
+  getCoinById(id: string): Observable<any> {
+    return this.http.get<any>(`${this.apiUrl}/${id}`);
+  }
+  getCoinYears(): Observable<string[]> {
+    return this.http.get<string[]>(`${this.apiUrl}/years`);
+}
+
+getCoinCountries(): Observable<string[]> {
+    return this.http.get<string[]>(`${this.apiUrl}/countries`);
+}
 }

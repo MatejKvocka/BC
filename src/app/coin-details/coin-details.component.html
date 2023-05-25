@@ -1,0 +1,15 @@
+<mat-card *ngIf="coin">
+    <mat-card-header>
+      <mat-card-title>{{ coin.country }}</mat-card-title>
+      <mat-card-subtitle>Coin Details</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image class="coin-image" [src]="coin.img_url" alt="{{ coin.country }} Coin">
+    <mat-card-content>
+      <p><strong>Year:</strong> {{ coin.year }}</p>
+      <p><strong>Quarter:</strong> {{ coin.quarter }}</p>
+      <p><strong>Motiv:</strong> {{ coin.motiv }}</p>
+      <p><strong>Popis:</strong> {{ coin.popis }}</p>
+      <p><strong>Naklad:</strong> {{ coin.naklad }}</p>
+    </mat-card-content>
+  </mat-card>
+  

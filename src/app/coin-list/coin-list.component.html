@@ -1,11 +1,33 @@
-<mat-grid-list cols="4" rowHeight="350px">
-  <mat-grid-tile *ngFor="let coin of coins">
-    <div class="coin-container" (click)="openCoinDialog(coin)">
-      <img [src]="coin.img_url" alt="Coin Image" class="coin-image">
-      <div class="coin-details">
-        <p class="country">{{ coin.country }}</p>
-        <p class="year">{{ coin.year }}</p>
-      </div>
-    </div>
-  </mat-grid-tile>
-</mat-grid-list>
+<div class="filter-container">
+  <mat-form-field appearance="fill">
+    <mat-label>Year</mat-label>
+    <mat-select [(value)]="selectedYear" (selectionChange)="filterCoins()">
+      <mat-option *ngFor="let year of years" [value]="year">
+        {{ year }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Country</mat-label>
+    <mat-select [(value)]="selectedCountry" (selectionChange)="filterCoins()">
+      <mat-option *ngFor="let country of countries" [value]="country">
+        {{ country }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="clearFilters()">Clear Filters</button>
+
+</div>
+
+<div *ngFor="let country of groupedCoins | keyvalue">
+  <h2>{{ country.key }}</h2>
+  <mat-grid-list cols="4" rowHeight="350px">
+    <mat-grid-tile *ngFor="let coin of country.value" class="coin-tile">
+      <a [routerLink]="['/coins', coin._id]">
+        <img class="coin-image" [src]="coin.img_url" alt="{{ coin.country }} Coin">
+        <p>{{ coin.year }}</p>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

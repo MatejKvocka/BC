@@ -1,0 +1,7 @@
+.coin-image {
+    width: 400px;  /* adjust to the size you want */
+    height: 400px;  /* adjust to the size you want */
+    object-fit: cover;  /* this will crop the images if they are larger than the container */
+    transition: transform 0.3s ease;
+
+}

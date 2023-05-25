@@ -11,6 +11,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { CoinDialogComponent } from './coin-dialog/coin-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { CoinDetailsComponent } from './coin-details/coin-details.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatSelectModule } from '@angular/material/select';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -19,7 +23,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     TestComponent,
     CoinListComponent,
     NavigationComponent,
-    CoinDialogComponent
+    CoinDialogComponent,
+    CoinDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -27,8 +32,11 @@ import { MatDialogModule } from '@angular/material/dialog';
     HttpClientModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatDialogModule
-  ],
+    MatDialogModule,
+    MatCardModule,
+    MatSelectModule,
+    ReactiveFormsModule
+  ],  
   providers: [],
   bootstrap: [AppComponent]
 })
