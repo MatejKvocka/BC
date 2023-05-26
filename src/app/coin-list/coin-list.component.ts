@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CoinService } from 'src/services/coin.service';
 import { CoinDialogService } from 'src/services/coin-dialog.service';
+import { HttpHeaders } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-coin-list',
