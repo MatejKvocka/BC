@@ -1,48 +1,76 @@
 .coin-container {
-    position: relative;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  
-  .coin-image {
-    width: 200px;  /* adjust to the size you want */
-    height: 200px;  /* adjust to the size you want */
-    object-fit: cover;  /* this will crop the images if they are larger than the container */
-    transition: transform 0.3s ease;
-
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-  
-  .coin-details {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 8px;
-    color: white;
-  }
-  
-  .country {
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  .year {
-    font-size: 14px;
-  }
-  .coin-tile {
-    transition: background-color 0.3s ease;
-  }
-  
-  
-  .coin-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-decoration: none;
-    color: inherit;  /* so that the link text inherits the same color as the surrounding text */
-  }
-  
-  .coin-image:hover {
-    transform: scale(1.1);  /* 10% zoom on hover */
-  }
+
+.coin-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.coin-details {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  color: white;
+}
+
+.country {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.year {
+  font-size: 14px;
+}
+
+.coin-tile {
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Add margin between rows */
+}
+
+.coin-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.coin-image:hover {
+  transform: scale(1.1);
+}
+
+.coin-card {
+  width: 80%;
+}
+
+.collect-button {
+  font-size: 0.75em;
+}
+
+.coin-year {
+  text-align: center;
+  font-size: 1em;
+}
+
+.coin-image-link {
+  display: block;
+  margin: 0 auto;
+}
+
+.coin-image {
+  display: block;
+  margin: 0 auto;
+}
+.coin-grid-list {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 20px;
+}

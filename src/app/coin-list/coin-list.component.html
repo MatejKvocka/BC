@@ -1,3 +1,4 @@
+
 <div class="filter-container">
   <mat-form-field appearance="fill">
     <mat-label>Year</mat-label>
@@ -22,12 +23,21 @@
 
 <div *ngFor="let country of groupedCoins | keyvalue">
   <h2>{{ country.key }}</h2>
-  <mat-grid-list cols="4" rowHeight="350px">
+  <mat-grid-list cols="8" rowHeight="120px" class="coin-grid-list">
     <mat-grid-tile *ngFor="let coin of country.value" class="coin-tile">
-      <a [routerLink]="['/coins', coin._id]">
-        <img class="coin-image" [src]="coin.img_url" alt="{{ coin.country }} Coin">
-        <p>{{ coin.year }}</p>
-      </a>
+      <mat-card class="coin-card">
+        <mat-card-header>
+          <div mat-card-avatar class="coin-year">{{ coin.year }}</div>
+        </mat-card-header>
+        <a [routerLink]="['/coins', coin._id]" class="coin-image-link">
+          <img mat-card-image class="coin-image" [src]="coin.img_url" alt="{{ coin.country }} Coin">
+        </a>
+        <mat-card-actions>
+          <mat-checkbox (change)="checkboxChange(coin._id, coin.collected, $event)"
+            [checked]="coin.collected">
+          </mat-checkbox>
+        </mat-card-actions>
+      </mat-card>
     </mat-grid-tile>
   </mat-grid-list>
 </div>

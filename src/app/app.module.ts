@@ -14,7 +14,18 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { CoinDetailsComponent } from './coin-details/coin-details.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RegistrationComponent } from './registration/registration.component';
+import { LoginComponent } from './login/login.component';
+import { MatInputModule } from '@angular/material/input';
+import { LogoutComponent } from './logout/logout.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { StatisticsComponent } from './statistics/statistics.component';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
+
+
 
 
 @NgModule({
@@ -24,7 +35,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     CoinListComponent,
     NavigationComponent,
     CoinDialogComponent,
-    CoinDetailsComponent
+    CoinDetailsComponent,
+    RegistrationComponent,
+    LoginComponent,
+    LogoutComponent,
+    UserProfileComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +51,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatDialogModule,
     MatCardModule,
     MatSelectModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule,
+    MatInputModule,
+    MatCheckboxModule,
+    MatProgressBarModule
   ],  
   providers: [],
   bootstrap: [AppComponent]

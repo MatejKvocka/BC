@@ -1,0 +1,16 @@
+<mat-grid-list cols="8" rowHeight="120px" class="coin-grid-list">
+    <mat-grid-tile *ngFor="let coin of collectedCoins" class="coin-tile">
+      <mat-card class="coin-card">
+        <mat-card-header>
+          <div mat-card-avatar class="coin-year">{{ coin.year }}</div>
+        </mat-card-header>
+        <a class="coin-image-link">
+          <img mat-card-image class="coin-image" [src]="coin.img_url" alt="Coin">
+        </a>
+        <mat-card-actions>
+          <!-- Placeholder for any actions you might want to include -->
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  
